@@ -1,0 +1,6 @@
+[submodule "dwm-config"]
+	path = dwm-config
+	url = https://github.com/SingularisArt/dwm-config
+[submodule "dwm-statusbar"]
+	path = dwm-statusbar
+	url = https://github.com/SingularisArt/dwm-statusbar
