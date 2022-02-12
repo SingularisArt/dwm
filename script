@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+source ~/Singularis/bin/common
+source ~/Singularis/bin/variables
+
+log_info "Installing dwm"
+
+cd ~/Singularis/aspects/dwm/dwm-config
+sudo make clean install
+
+cd ~/Singularis/aspects/dwm/dmenu
+sudo make clean install
+
+ln -sf ~/Singularis/aspects/dwm/ ~/.config/
+sudo ln -sf ~/Singularis/aspects/dwm/dwm-statusbar/dwm-iconbar /bin/
+
